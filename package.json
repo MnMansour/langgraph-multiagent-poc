@@ -1,0 +1,23 @@
+{
+  "name": "langgraph-multiagent-poc",
+  "version": "1.0.0",
+  "description": "Stateful Multi-Agent Log Debugger built with LangGraph TypeScript, OpenAI, and HITL",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^0.2.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5",
+    "tsx": "^4.15.0"
+  }
+}
